@@ -92,6 +92,11 @@ function withdrawal(){
 
 /* 비밀번호 재설정 */
 function reset(){
+  const pass = prompt("기존 비밀번호를 입력하세요");
+  if(pass !== password){
+    alert("비밀번호가 틀렸습니다")
+    return;
+  }
   const pw = prompt("새로운 비밀번호를 입력하세요");
   if(pw === null){
     alert("비밀번호 입력 취소됨");
