@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.contain{
+  display: flex;
+  width: 810px;
+  height: 500px;
+}
+
+.game-table{
+  flex-grow: 1;
+  border-right: 1px solid black;
+}
+
+.game-tab{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#tab{
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.ss{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#btn-tab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#btn{
+  margin: auto;
+  padding: 5px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#use, #com{
+  width: 100%;
+}
+
+#btn:hover{
+  background-color: pink;
+}
+
+#btn:active{
+  scale: 0.99;
+}
+
+#com-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.game-tab h3{
+  text-align: center;
+  padding: 5px 0;
+  font-size: 28px;
+}
+
+.result{
+  width: 210px;
+  padding-right: 10px;
+  margin-left: 5px;
+  overflow: auto;
+  position: relative;
+}
+
+.result h4{
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+#result-table{
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+#gamelog li{
+  display: flex;
+  padding: 1px 0;
+  width: 100%;
+}
+
+#gamelog span{
+  width: 50px;
+  text-align: center;
+}
+
+#gamelog span:first-child{
+  font-weight: bold;
+  width: 70px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+#win{
+  color: green;
+}
+
+#lose{
+  color: red;
+}
+
+#draw{
+  color: blue;
+}

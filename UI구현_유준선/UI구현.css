@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.wihi{
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+
+#wiInput, #hiInput{
+  width: 100px;
+  margin: 0 0 0 30px;
+}
+
+.fsfw{
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+
+#fsInput{
+  width: 100px;
+}
+
+.cbc{
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+
+.row, .col{
+  display: flex;
+  margin: 30px 0 30px 30px;
+  justify-content: left;
+  align-items: center;
+  font-weight: bold;
+}
+
+#rInput, #cInput{
+  width: 30px;
+}
+
+.txt{
+  display: flex;
+  margin: 30px 0 30px 30px;
+  justify-content: left;
+  align-items: center;
+  font-weight: bold;
+}
+
+#textInput{
+  margin: 0 0 0 3px;
+  flex-grow: 1;
+}
+
+#executeArea{
+  border: 2px solid black;
+  margin: auto;
+  width: 10px;
+  height: 10px;
+  margin-top: 20px;
+  display: flex;
+  opacity: 0;
+}

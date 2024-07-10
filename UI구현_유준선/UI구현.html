@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI구현_유준선</title>
+
+  <link rel="stylesheet" href="UI구현.css">
+</head>
+<body>
+  <h1>UI구현_유준선</h1>
+
+  <main>
+    <section class="wihi">
+      <div id="wi">
+        너비 : <input type="number" id="wiInput"> px
+      </div>
+      <div id="hi">
+        높이 : <input type="number" id="hiInput"> px
+      </div>
+    </section>
+    <section class="fsfw">
+      <div id="fs">
+        글자크기 : <input type="number" id="fsInput"> px
+      </div>
+      <div id="fw">
+        굵기 :  
+        보통 <input type="radio" name="fwInput" id="fInput" value="normal">
+        굵게 <input type="radio" name="fwInput" id="fInput" value="bold">
+      </div>
+    </section>
+    <section class="cbc">
+      <div id="c">
+        글자색 : <input type="text" id="coInput">
+      </div>
+      <div id="bc">
+        배경색 : <input type="text" id="bcInput">
+      </div>
+    </section>
+    <section class="row">
+      가로정렬 : 
+      왼쪽 <input type="radio" name="rowInput" id="rInput" value="left">
+      가운데 <input type="radio" name="rowInput" id="rInput" value="center">
+      오른쪽 <input type="radio" name="rowInput" id="rInput" value="right">
+    </section>
+    <section class="col">
+      세로정렬 : 
+      위 <input type="radio" name="colInput" id="cInput" value="baseline">
+      가운데 <input type="radio" name="colInput" id="cInput" value="center">
+      아래 <input type="radio" name="colInput" id="cInput" value="end">
+    </section>
+    <section class="txt">
+      출력 문자열 : <input type="text" id="textInput">
+    </section>
+    <button id="execute">적용하기</button>
+
+    <div id="executeArea"></div>
+
+  </main>
+  
+
+
+  <script src="UI구현.js"></script>
+</body>
+</html>
